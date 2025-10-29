@@ -5,10 +5,10 @@ import { WhatsAppButton, FloatingWhatsAppButton } from "@/components/WhatsAppBut
 import { ImageLightbox } from "@/components/ImageLightbox";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import suit1 from "@assets/stock_images/elegant_tailored_sui_7c838ae5.jpg";
-import suit2 from "@assets/stock_images/elegant_tailored_sui_3e19a548.jpg";
-import suit3 from "@assets/stock_images/elegant_tailored_sui_0b2f5e75.jpg";
-import suit4 from "@assets/stock_images/elegant_tailored_sui_8e6a401a.jpg";
+const image1 = '/images/elegant_tailored_sui_7c838ae5.jpg';
+const image2 = '/images/elegant_tailored_sui_3e19a548.jpg';
+const image3 = '/images/elegant_tailored_sui_8e6a401a.jpg';
+const image4 = '/images/elegant_tailored_sui_0b2f5e75.jpg';
 
 const STORE_IMAGE = "https://i.imgur.com/MorCtFi.jpeg";
 
@@ -236,10 +236,10 @@ export default function Home() {
 
           <ImageLightbox 
             images={[
-              { src: suit1, alt: "Terno sob medida - Alfaiataria VM-TERNOS", id: 1 },
-              { src: suit2, alt: "Acabamento refinado e tecidos premium", id: 2 },
-              { src: suit3, alt: "Peças únicas, feitas sob medida", id: 3 },
-              { src: suit4, alt: "Elegância e sofisticação em cada detalhe", id: 4 }
+              { src: image1, alt: "Terno sob medida - Alfaiataria VM-TERNOS", id: 1 },
+              { src: image2, alt: "Acabamento refinado e tecidos premium", id: 2 },
+              { src: image3, alt: "Peças únicas, feitas sob medida", id: 3 },
+              { src: image4, alt: "Elegância e sofisticação em cada detalhe", id: 4 }
             ]}
           />
         </div>
